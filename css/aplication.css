@@ -1,0 +1,117 @@
+/* Variriables */
+/* Global Settings */
+*{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	box-sizing: border-box;
+}
+/* body{
+	
+	background: #C9C7C7;} */
+
+/* Content Styling */
+main{
+	height: auto;
+	background-color: #C9C7C7;;
+	padding: 30px;
+	width: 800px;
+    margin: 0 auto;
+	position: relative;
+	z-index: 100;
+}
+main h2{
+	font-size: 20px;
+	text-align: left;
+	margin-bottom: 15px;
+	text-align: center;
+}
+/* Content Section === Checkout Page */
+main .application-form{
+	max-width: 600px;
+	padding: 10px;
+	margin: 0 auto;
+}
+/* Content main === Checkout Page === Checkout Items */
+main .application-form .application-form-detail{
+	width: 100%;
+}
+main .application-form .application-form-detail h4{
+	display: block;
+	color: var(--secondayColor);
+	background-color: var(--mainColor);
+	text-transform: uppercase;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.application-form-detail .form-group{
+	margin: 10px 5px;
+	width: calc(100% - 10px);
+}
+.application-form-detail label{
+	color: var(--mainColor);
+	display: block;
+	margin-bottom: 6px;
+}
+.application-form-detail .form-group input,
+.application-form-detail .form-group select,
+.application-form-detail .form-group textarea{
+	width: 100%;
+	padding: 8px 5px;
+	border: 1px solid var(--secondayColor);
+	outline: none;
+}
+.application-form-detail input:focus,
+.application-form-detail select:focus,
+.application-form-detail textarea:focus{
+	outline: 1px solid var(--secondayColor);
+	border: 1xp solid transparent;
+}
+.application-form-detail .form-inline{
+	display: flex;
+	justify-content: space-between;
+}
+.application-form-detail .forn-ut{
+	display: flex;
+	justify-content: space-between;
+}
+.application-form-detail .form-utu{
+	display: flex;
+	justify-content: space-between;
+}
+.application-form-detail .form-utun{
+	display: flex;
+	justify-content: space-between;
+}
+
+.application-form-detail .form-inline.flex{
+	display: flex;
+	justify-content: start;
+	margin-bottom: 10px;
+}
+.application-form-detail .form-inline.flex input{
+	width: unset;
+	margin-right: 10px;
+}
+.application-form-detail .form-inline .form-group{
+	width: 48%;
+}
+.application-form-detail button{
+	display: block;
+	padding: 6px 10px;
+	background-color: white;
+	color: var(--secondayColor);
+	border: none;
+	cursor: pointer;
+	transition: 0.3s ease-in;
+	margin-left: 5px;
+}
+.application-form-detail button:hover{
+	color: gray;
+}
+
+.container {
+    position: relative;
+  }
+
