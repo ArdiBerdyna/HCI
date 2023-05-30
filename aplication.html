@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ 	<head>
+ 		<!-- Meta Tags -->
+		<meta charset="UTF-8">
+		<meta name="author" content="Kamran Mubarik">
+		<meta name="content" content="KM Tutorial Online">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Title -->
+ 		<title>Job Application Form</title>
+ 		<!-- Style Sheet -->
+         <link href="css/aplication.css" rel="stylesheet"/>
+		<!-- Javascript -->
+ 	</head>
+<body>
+
+	<div class="container">
+		<main>			
+			<div class="application-form">
+				<h2>Job Seekers Application Form</h2>
+			<br><br>
+				<div class="application-form-detail">					
+					<form>
+						<h4>Looking for a job? Fill in the form below with the required information.
+							________________________________________________________________________</h4>
+						<div class="form-inline">
+							<div class="form-group">
+								<label>First Name *</label>
+								<input type="text" id="fname" name="fname" required>
+							</div>
+							<div class="form-group">
+								<label>Last Name *</label>
+								<input type="text" id="lname" name="lname" required>
+							</div>
+							
+						</div>
+						<div class="forn-ut">
+						<div class="form-group">
+							<label>Email *</label>
+							<input type="email" id="email" name="email" required>
+						</div>
+						<div class="form-group">
+							<label>Phone *</label>
+							<input type="tel" id="tel" name="tel" minlength="11" maxlength="11" required>
+						</div>
+					</div>
+
+					<div class="form-utu">
+						<div class="form-group">
+							<label>What position are you applying for?</label>
+							<input type="email" id="email" name="email" required>
+						</div>
+						<div class="form-group">
+							<label>Avaliable start date?</label>
+							<input type="tel" id="tel" name="tel" minlength="11" maxlength="11" required>
+						</div>
+					</div>
+						<br>
+						
+						<br>
+						<div class="form-group">
+							<label>What is your corrent employment status?</label>
+							<br>
+							<div class="form-inline flex">
+								<input type="radio" id="relocation" name="relocation">
+								<label>Employed</label>
+							</div>
+							<div class="form-inline flex">
+								<input type="radio" id="relocation" name="relocation">
+								<label>Self-Employed</label>
+							</div>
+							<div class="form-inline flex">
+								<input type="radio" id="relocation" name="relocation">
+								<label>UnEmployed</label>
+							</div>
+							<div class="form-inline flex">
+								<input type="radio" id="relocation" name="relocation">
+								<label>Student</label>
+							</div>
+						</div>
+						<br>
+						<br><br><br><br><br><br><br>
+						<div class="form-group">
+							<label>Submit your resume by providing your resume URL:</label>
+							<input type="text" id="last-employer" name="last-employer" autocomplete="off">
+						</div>
+						
+						<hr><br>
+						<div class="container" style=" display: flex;
+						justify-content: flex-end;">
+							<input type="submit" value="Submit" class="submit-button" style="padding: 5px;">
+						  </div>
+						<div>
+					</form>				
+				</div>
+			</div>		
+		</main> <!-- Main Area -->
+	</div>
+	
+
+</body>
+
+</html>
