@@ -143,7 +143,7 @@ let coll = "";
                           <p class="card-text">${jobOffer.location}</p>
                           <button style="padding:5px; background-color: white;
                           border: 2px solid black;
-                          color: black;" class="card-text" >Appliccate here</button>
+                          color: black;" class="card-text" >Applicate here</button>
                       </a>
                      
                       <a href="#">
@@ -239,7 +239,7 @@ job_offer_list.map(function(element)
                             <p class="card-text">${element.location}</p>
                             <button style="padding:5px; background-color: white;
                             border: 2px solid black;
-                            color: black;" class="card-text" >Appliccate here</button>
+                            color: black;" class="card-text" >Applicate here</button>
                         </a>
                        
                         <a href="#">
@@ -284,7 +284,7 @@ allBtn_cata.forEach( function (event)
                             <p class="card-text">${element.location}</p>
                             <button style="padding:5px; background-color: white;
                             border: 2px solid black;
-                            color: black;" class="card-text" >Appliccate here</button>
+                            color: black;" class="card-text" >Applicate here</button>
                         </a>
                        
                         <a href="#">
@@ -322,7 +322,7 @@ allBtn_cata.forEach( function (event)
                     <p class="card-text">${element.location}</p>
                     <button style="padding:5px; background-color: white;
                     border: 2px solid black;
-                    color: black;" class="card-text" >Appliccate here</button>
+                    color: black;" class="card-text" >Applicate here</button>
                 </a>
                
                 <a href="#">
